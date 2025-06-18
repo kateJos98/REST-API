@@ -19,3 +19,6 @@ node server.js
 
 docker build -t katyjoseth719/rest-api .
 docker run -p 3000:3000 --name rest-api katyjoseth719/rest-api
+
+🌐 Access
+http://localhost:3000/hello → Returns a JSON message
